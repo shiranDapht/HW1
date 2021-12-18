@@ -39,7 +39,7 @@ module fas (
 	NOT #(
 		.Tpdhl(6), .Tpdlh(6)
 	)g6(
-		.A(cin),
+		.A(b),
 		.Z(out6)
 	);
 	NOT #(
