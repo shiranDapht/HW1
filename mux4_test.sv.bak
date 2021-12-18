@@ -25,7 +25,7 @@ initial begin
     #60;
     sel[1] = 1'b1;
 	
-	#30;
+	#10;
 	sel[1] = 1'b0;
     end
 endmodule

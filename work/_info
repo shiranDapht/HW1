@@ -11,49 +11,147 @@ cModel Technology
 Z0 dC:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1
 vmux2
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1639843953
+!s110 1639854698
 !i10b 1
-!s100 S8S=QN]I@a=5VTz6MUAT61
+!s100 XDHP:?NOM7EOdgb;keSf93
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IA>B<971c]FSCmR25h=B4S2
+Il4J^]QAoS<k1F1?;bTH?D1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1639842341
+w1639854630
 8mux2.sv
 Fmux2.sv
-!i122 1
+!i122 30
 L0 2 59
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1639843953.000000
+!s108 1639854698.000000
 !s107 mux2.sv|
 !s90 -reportprogress|300|mux2.sv|
 !i113 1
 Z5 tCvgOpt 0
-vmux4
+vmux2_tb
 R1
-!s110 1639844157
+!s110 1639854702
 !i10b 1
-!s100 1EVX4EBb^X>[bZ>6hzFVb3
+!s100 =T;T59Ei[i=A8^D:eMgKU3
 R2
-Iilf9P3Rd>^QR5:_WDWcW<3
+I=S;>TSMkFCiU26:cG0^273
 R3
 S1
 R0
-w1639844155
-8mux4.sv
-Fmux4.sv
-!i122 2
-L0 2 43
+w1639854115
+8mux2_tb.sv
+Fmux2_tb.sv
+!i122 31
+L0 2 22
 R4
 r1
 !s85 0
 31
-!s108 1639844157.000000
+!s108 1639854702.000000
+!s107 mux2_tb.sv|
+!s90 -reportprogress|300|mux2_tb.sv|
+!i113 1
+R5
+vmux4
+R1
+!s110 1639845753
+!i10b 1
+!s100 ^h5:N@h_m]oEcP59V@7F>3
+R2
+Ig2>LZmQk27l_hQZA:chPW3
+R3
+S1
+R0
+w1639845527
+8mux4.sv
+Fmux4.sv
+!i122 4
+L0 2 35
+R4
+r1
+!s85 0
+31
+!s108 1639845752.000000
 !s107 mux4.sv|
 !s90 -reportprogress|300|mux4.sv|
 !i113 1
 R5
+vmux4_test
+R1
+!s110 1639855636
+!i10b 1
+!s100 W<_Na^UjA2^1><V7K;3Fz1
+R2
+ISk;_CAk3OCYZ7DI6lO65Y0
+R3
+S1
+R0
+w1639855630
+8mux4_test.sv
+Fmux4_test.sv
+!i122 36
+L0 2 30
+R4
+r1
+!s85 0
+31
+!s108 1639855636.000000
+!s107 mux4_test.sv|
+!s90 -reportprogress|300|mux4_test.sv|
+!i113 1
+R5
+vNOT
+R1
+!s110 1639845821
+!i10b 1
+!s100 K^gGD`WG[XMMPZ=Z=jl^43
+R2
+IJN_8m;BnMi`Gbg:C[FR>W1
+R3
+S1
+R0
+w1619958549
+8libcells/NOT.sv
+Flibcells/NOT.sv
+!i122 7
+L0 1 11
+R4
+r1
+!s85 0
+31
+!s108 1639845821.000000
+!s107 libcells/NOT.sv|
+!s90 -reportprogress|300|libcells/NOT.sv|
+!i113 1
+R5
+n@n@o@t
+vOR2
+R1
+!s110 1639845827
+!i10b 1
+!s100 TKP6Xe513KabBIJNZ^OmL2
+R2
+I0iI5_iXMT4Q7i?KEf[N]O0
+R3
+S1
+R0
+w1564820704
+8libcells/OR2.sv
+Flibcells/OR2.sv
+!i122 8
+L0 1 12
+R4
+r1
+!s85 0
+31
+!s108 1639845827.000000
+!s107 libcells/OR2.sv|
+!s90 -reportprogress|300|libcells/OR2.sv|
+!i113 1
+R5
+n@o@r2
