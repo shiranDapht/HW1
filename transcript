@@ -1,2 +1,49 @@
 # Reading pref.tcl
-# OpenFile C:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1/mux4.sv
+# OpenFile C:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1/mux2.sv
+vlog -reportprogress 300 -work work C:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1/mux2.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:09:42 on Dec 18,2021
+# vlog -reportprogress 300 -work work C:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1/mux2.sv 
+# ** Error: (vlog-66) Execution of vlib.exe failed. Please check the error log for more details.
+# End time: 18:09:42 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Loading project mux2
+# Compile of mux2.sv was successful.
+vlog mux2.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:12:33 on Dec 18,2021
+# vlog -reportprogress 300 mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 18:12:33 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog mux4.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:12:44 on Dec 18,2021
+# vlog -reportprogress 300 mux4.sv 
+# -- Compiling module mux4
+# ** Error: (vlog-13069) mux4.sv(21): near "mux2": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# End time: 18:12:44 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog mux4.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:15:50 on Dec 18,2021
+# vlog -reportprogress 300 mux4.sv 
+# -- Compiling module mux4
+# ** Error: (vlog-13069) mux4.sv(21): near "mux2": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
+# End time: 18:15:50 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog mux4.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:15:57 on Dec 18,2021
+# vlog -reportprogress 300 mux4.sv 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 18:15:57 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

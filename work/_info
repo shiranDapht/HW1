@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1
+vmux2
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1639843953
+!i10b 1
+!s100 S8S=QN]I@a=5VTz6MUAT61
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA>B<971c]FSCmR25h=B4S2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1639842341
+8mux2.sv
+Fmux2.sv
+!i122 1
+L0 2 59
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1639843953.000000
+!s107 mux2.sv|
+!s90 -reportprogress|300|mux2.sv|
+!i113 1
+Z5 tCvgOpt 0
+vmux4
+R1
+!s110 1639844157
+!i10b 1
+!s100 1EVX4EBb^X>[bZ>6hzFVb3
+R2
+Iilf9P3Rd>^QR5:_WDWcW<3
+R3
+S1
+R0
+w1639844155
+8mux4.sv
+Fmux4.sv
+!i122 2
+L0 2 43
+R4
+r1
+!s85 0
+31
+!s108 1639844157.000000
+!s107 mux4.sv|
+!s90 -reportprogress|300|mux4.sv|
+!i113 1
+R5
