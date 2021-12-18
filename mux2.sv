@@ -34,21 +34,21 @@ module mux2 (
 	OR2 #(
 		.Tpdhl(10), .Tpdlh(10)
 		) g5 (
-			.A(sel),
-			.B(out3),
+			.A(out3),
+			.B(sel),
 			.Z(out5)
 	);
 	NOT #(
 		.Tpdhl(6), .Tpdlh(1)
 		) g6 (
 			.A(out4),
-			.Z(out3)
+			.Z(out6)
 	);
 	NOT #(
 		.Tpdhl(6), .Tpdlh(1)
 		) g7 (
 			.A(out5),
-			.Z(out3)
+			.Z(out7)
 	);
 	OR2 #(
 		.Tpdhl(10), .Tpdlh(10)

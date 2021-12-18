@@ -1,0 +1,350 @@
+vlog fas.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:55:04 on Dec 18,2021
+# vlog -reportprogress 300 fas.sv 
+# -- Compiling module fas
+# 
+# Top level modules:
+# 	fas
+# End time: 23:55:04 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:55:12 on Dec 18,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# ** Error: (vlog-13069) alu1bit.sv(27): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# ** Error: (vlog-13069) alu1bit.sv(53): near "sel": syntax error, unexpected IDENTIFIER, expecting .* or '.'.
+# End time: 23:55:12 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:55:27 on Dec 18,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# ** Error: (vlog-13069) alu1bit.sv(27): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# ** Error: alu1bit.sv(53): (vlog-2730) Undefined variable: 'sel'.
+# ** Error: (vlog-13069) alu1bit.sv(53): near "[": syntax error, unexpected '[', expecting ')'.
+# End time: 23:55:28 on Dec 18,2021, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:55:41 on Dec 18,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# ** Error: (vlog-13069) alu1bit.sv(27): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# ** Error: alu1bit.sv(53): (vlog-2730) Undefined variable: 'sel'.
+# ** Error: (vlog-13069) alu1bit.sv(53): near "[": syntax error, unexpected '[', expecting ')'.
+# End time: 23:55:41 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:55:58 on Dec 18,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# ** Error: alu1bit.sv(53): (vlog-2730) Undefined variable: 'sel'.
+# ** Error: (vlog-13069) alu1bit.sv(53): near "[": syntax error, unexpected '[', expecting ')'.
+# End time: 23:55:58 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:24 on Dec 18,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# 
+# Top level modules:
+# 	alu1bit
+# End time: 23:57:24 on Dec 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:09:27 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# ** Error: (vlog-13069) alu1bit_test.sv(14): near "initial": syntax error, unexpected initial, expecting ';' or ','.
+# ** Error: alu1bit_test.sv(16): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 00:09:27 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:09:42 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# ** Error: alu1bit_test.sv(12): 'op' is not a function name.
+# ** Error (suppressible): (vlog-13276) alu1bit_test.sv(12): Could not find field/method name ($$) in 'op' of 'op.$$'.
+# ** Error: alu1bit_test.sv(11): 's' is not a function name.
+# ** Error: alu1bit_test.sv(11): Component name 's' does not refer to a scope.
+# ** Error: alu1bit_test.sv(10): 'cout' is not a function name.
+# ** Error: alu1bit_test.sv(10): Component name 'cout' does not refer to a scope.
+# ** Error: alu1bit_test.sv(9): 'cin' is not a function name.
+# ** Error: alu1bit_test.sv(9): Component name 'cin' does not refer to a scope.
+# ** Error: alu1bit_test.sv(8): 'b' is not a function name.
+# ** Error: alu1bit_test.sv(8): Component name 'b' does not refer to a scope.
+# ** Error: alu1bit_test.sv(7): 'a' is not a function name.
+# ** Error: alu1bit_test.sv(7): Component name 'a' does not refer to a scope.
+# End time: 00:09:42 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:10:47 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# ** Error: alu1bit_test.sv(12): 'op' is not a function name.
+# ** Error (suppressible): (vlog-13276) alu1bit_test.sv(12): Could not find field/method name ($$) in 'op' of 'op.$$'.
+# ** Error: alu1bit_test.sv(11): 's' is not a function name.
+# ** Error: alu1bit_test.sv(11): Component name 's' does not refer to a scope.
+# ** Error: alu1bit_test.sv(10): 'cout' is not a function name.
+# ** Error: alu1bit_test.sv(10): Component name 'cout' does not refer to a scope.
+# ** Error: alu1bit_test.sv(9): 'cin' is not a function name.
+# ** Error: alu1bit_test.sv(9): Component name 'cin' does not refer to a scope.
+# ** Error: alu1bit_test.sv(8): 'b' is not a function name.
+# ** Error: alu1bit_test.sv(8): Component name 'b' does not refer to a scope.
+# ** Error: alu1bit_test.sv(7): 'a' is not a function name.
+# ** Error: alu1bit_test.sv(7): Component name 'a' does not refer to a scope.
+# End time: 00:10:47 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:10:59 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:10:59 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim alu1bit_test
+# vsim alu1bit_test 
+# Start time: 00:11:11 on Dec 19,2021
+# Loading sv_std.std
+# Loading work.alu1bit_test
+# Loading work.fas
+# Loading work.XOR2
+# Loading work.OR2
+# Loading work.NOT
+# ** Error: (vsim-3063) Port 'op' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /alu1bit_test/f File: alu1bit_test.sv Line: 6
+# Error loading design
+# End time: 00:11:12 on Dec 19,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim alu1bit_test
+# vsim alu1bit_test 
+# Start time: 00:12:54 on Dec 19,2021
+# Loading sv_std.std
+# Loading work.alu1bit_test
+# Loading work.fas
+# Loading work.XOR2
+# Loading work.OR2
+# Loading work.NOT
+# ** Error: (vsim-3063) Port 'op' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /alu1bit_test/f File: alu1bit_test.sv Line: 6
+# Error loading design
+# End time: 00:12:55 on Dec 19,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:12:58 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:12:58 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim alu1bit_test
+# vsim alu1bit_test 
+# Start time: 00:13:01 on Dec 19,2021
+# Loading sv_std.std
+# Loading work.alu1bit_test
+# Loading work.fas
+# Loading work.XOR2
+# Loading work.OR2
+# Loading work.NOT
+# ** Error: (vsim-3063) Port 'op' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /alu1bit_test/f File: alu1bit_test.sv Line: 6
+# Error loading design
+# End time: 00:13:01 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:15:54 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:15:54 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:15:58 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# 
+# Top level modules:
+# 	alu1bit
+# End time: 00:15:58 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim alu1bit_test
+# vsim alu1bit_test 
+# Start time: 00:16:00 on Dec 19,2021
+# Loading sv_std.std
+# Loading work.alu1bit_test
+# Loading work.fas
+# Loading work.XOR2
+# Loading work.OR2
+# Loading work.NOT
+# ** Error: (vsim-3063) Port 'op' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /alu1bit_test/f File: alu1bit_test.sv Line: 6
+# Error loading design
+# End time: 00:16:01 on Dec 19,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:16:49 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# 
+# Top level modules:
+# 	alu1bit
+# End time: 00:16:49 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:16:52 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:16:53 on Dec 19,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog fas.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:16:58 on Dec 19,2021
+# vlog -reportprogress 300 fas.sv 
+# -- Compiling module fas
+# 
+# Top level modules:
+# 	fas
+# End time: 00:16:58 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vsim alu1bit_test
+# vsim alu1bit_test 
+# Start time: 00:17:24 on Dec 19,2021
+# Loading sv_std.std
+# Loading work.alu1bit_test
+# Loading work.alu1bit
+# Loading work.NOT
+# Loading work.fas
+# Loading work.XOR2
+# Loading work.OR2
+# Loading work.mux4
+# Loading work.mux2
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'm'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /alu1bit_test/alu/m File: alu1bit.sv Line: 48
+# ** Warning: (vsim-3722) alu1bit.sv(48): [TFMPC] - Missing connection for port 'z'.
+run 200
+vlog fas.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:18:55 on Dec 19,2021
+# vlog -reportprogress 300 fas.sv 
+# -- Compiling module fas
+# 
+# Top level modules:
+# 	fas
+# End time: 00:18:55 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:18:59 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:18:59 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog alu1bit.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:19:03 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit.sv 
+# -- Compiling module alu1bit
+# 
+# Top level modules:
+# 	alu1bit
+# End time: 00:19:03 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim alu1bit_test
+# End time: 00:19:06 on Dec 19,2021, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 3
+# vsim alu1bit_test 
+# Start time: 00:19:06 on Dec 19,2021
+# Loading sv_std.std
+# Loading work.alu1bit_test
+# Loading work.alu1bit
+# Loading work.NOT
+# Loading work.fas
+# Loading work.XOR2
+# Loading work.OR2
+# Loading work.mux4
+# Loading work.mux2
+run 200
+add wave -position end  sim:/alu1bit_test/a
+add wave -position end  sim:/alu1bit_test/b
+add wave -position end  sim:/alu1bit_test/cin
+add wave -position end  sim:/alu1bit_test/cout
+add wave -position end  sim:/alu1bit_test/s
+add wave -position end  sim:/alu1bit_test/op[1]
+add wave -position end  sim:/alu1bit_test/op[0]
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: avial  Hostname: LAPTOP-AKI3A3A7  ProcessID: 7612
+#           Attempting to use alternate WLF file "./wlftmbeicc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmbeicc
+restart; run 200;
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:20:59 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:20:59 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart; run 200;
+# Loading work.alu1bit_test
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:23:19 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:23:19 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart; run 200;
+# Loading work.alu1bit_test
+vlog alu1bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:26:35 on Dec 19,2021
+# vlog -reportprogress 300 alu1bit_test.sv 
+# -- Compiling module alu1bit_test
+# 
+# Top level modules:
+# 	alu1bit_test
+# End time: 00:26:35 on Dec 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart; run 200;
+# Loading work.alu1bit_test

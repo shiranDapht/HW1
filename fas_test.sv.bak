@@ -22,6 +22,6 @@ initial begin
     cin = 1'b1;
 	
 	#52;
-	cin = 1'b0;
+	sel[1] = 1'b0;
     end
 endmodule
