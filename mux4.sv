@@ -32,13 +32,5 @@ module mux4 (
 			.sel(sel[1]),
 			.z(z)
 		);
-		
-				
-
-// Put your code here
-// ------------------
-
-
-// End of your code
 
 endmodule
