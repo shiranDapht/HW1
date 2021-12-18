@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1
 valu1bit
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1639865943
+!s110 1639869816
 !i10b 1
 !s100 GD`8NNhK]UK`;jTkMP9YA2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,16 +19,16 @@ IJm]`ZBO?87`NKO;RTgh1T0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1639865924
+w1639867092
 8alu1bit.sv
 Falu1bit.sv
-!i122 52
+!i122 60
 L0 2 55
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1639865943.000000
+!s108 1639869816.000000
 !s107 alu1bit.sv|
 !s90 -reportprogress|300|alu1bit.sv|
 !i113 1
@@ -55,6 +55,54 @@ r1
 !s108 1639866395.000000
 !s107 alu1bit_test.sv|
 !s90 -reportprogress|300|alu1bit_test.sv|
+!i113 1
+R5
+valu64bit
+R1
+!s110 1639870082
+!i10b 1
+!s100 zVcaVZeJX8DeRWWEnQ2DE1
+R2
+I7Z87RPzN:F`VRhNM2gP]13
+R3
+S1
+R0
+w1639869757
+8alu64bit.sv
+Falu64bit.sv
+!i122 63
+L0 2 40
+R4
+r1
+!s85 0
+31
+!s108 1639870081.000000
+!s107 alu64bit.sv|
+!s90 -reportprogress|300|alu64bit.sv|
+!i113 1
+R5
+valu64bit_test
+R1
+!s110 1639870426
+!i10b 1
+!s100 @<>jc=d]>`ZH5fOoSeJiQ1
+R2
+Ib9h@:mM[FBX0Cl@CGRFU93
+R3
+S1
+R0
+w1639870423
+8alu64bit_test.sv
+Falu64bit_test.sv
+!i122 68
+L0 2 28
+R4
+r1
+!s85 0
+31
+!s108 1639870426.000000
+!s107 alu64bit_test.sv|
+!s90 -reportprogress|300|alu64bit_test.sv|
 !i113 1
 R5
 vfas

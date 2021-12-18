@@ -14,7 +14,7 @@ module alu64bit (
 		.cin(cin),
 		.op(op),
 		.s(s[0]),
-		.cout(t_cout[0])
+		cout(t_cout[0])
 	);
 	genvar i;
 	generate
@@ -36,6 +36,6 @@ module alu64bit (
 		.cin(t_cout[62]),
 		.op(op),
 		.s(s[63]),
-		.cout(cout)
+		cout(cout)
 	);
 endmodule
