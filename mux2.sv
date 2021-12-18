@@ -28,27 +28,27 @@ module mux2 (
 		.Tpdhl(10), .Tpdlh(10)
 		) g4 (
 			.A(out1),
-			.B(out2),
+			.B(sel),
 			.Z(out4)
 	);
 	OR2 #(
 		.Tpdhl(10), .Tpdlh(10)
 		) g5 (
-			.A(sel),
-			.B(out3),
+			.A(out3),
+			.B(out2),
 			.Z(out5)
 	);
 	NOT #(
 		.Tpdhl(6), .Tpdlh(1)
 		) g6 (
 			.A(out4),
-			.Z(out3)
+			.Z(out6)
 	);
 	NOT #(
 		.Tpdhl(6), .Tpdlh(1)
 		) g7 (
 			.A(out5),
-			.Z(out3)
+			.Z(out7)
 	);
 	OR2 #(
 		.Tpdhl(10), .Tpdlh(10)
