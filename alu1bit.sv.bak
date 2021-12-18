@@ -50,7 +50,6 @@ module alu1bit (
 		.d1(out0),
 		.d2(fas_0),
 		.d3(fas_0),
-		.sel(op),
-		.z(s)
+		.sel(op)
 	);
 endmodule
