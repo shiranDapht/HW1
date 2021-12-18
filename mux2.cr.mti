@@ -1,1 +1,8 @@
+C:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1/mux2.sv {1 {vlog -work work -sv -stats=none C:/Users/avial/OneDrive/Desktop/Verilog/hw1/HW1/mux2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
 
+Top level modules:
+	mux2
+
+} {} {}}
