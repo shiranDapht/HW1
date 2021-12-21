@@ -47,3 +47,16 @@ vlog alu64bit_test.sv
 # Errors: 0, Warnings: 0
 restart; run 5000
 # Loading work.alu64bit_test
+run 5000
+vlog alu64bit_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:16:40 on Dec 21,2021
+# vlog -reportprogress 300 alu64bit_test.sv 
+# -- Compiling module alu64bit_test
+# 
+# Top level modules:
+# 	alu64bit_test
+# End time: 13:16:40 on Dec 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart; run 10000
+# Loading work.alu64bit_test

@@ -21,7 +21,7 @@ module alu64bit_test;
 		op[0] = 1'b0;
 		op[1] = 1'b1;
 		
-		#2690;
+		#200
 		cin = 1'b1;		
 		#2690;
 		cin = 1'b0;
