@@ -60,3 +60,5 @@ vlog alu64bit_test.sv
 # Errors: 0, Warnings: 0
 restart; run 10000
 # Loading work.alu64bit_test
+# End time: 13:33:42 on Dec 21,2021, Elapsed time: 49:19:20
+# Errors: 0, Warnings: 1
